@@ -7,7 +7,7 @@ body {
 
 h1 {
     color: white;
-    text-align: center;
+
 }
 
 .container {
@@ -30,10 +30,15 @@ h1 {
 }
 
 
-.list-emoji {
-    width: 30px;
-    display: inline;
-    margin-top: 70px;
+.to-do-app h1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px auto 20px;
+}
+
+.to-do-app img {
+    width: 40px;
+    margin-left: 10px;
 }
 
 
@@ -68,4 +73,10 @@ h1 {
     margin-bottom: 0px;
   }
 
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 1400px;
+    }
 }
