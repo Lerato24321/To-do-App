@@ -1,14 +1,71 @@
 body {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
 }
 
-.background {
-    width: 100%;
-    height: 100vh;
-    background-image: url(/back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+
+.to-do-app {
+  width: 100%;
+  max-width: 540px;
+  background: rgba(236, 156, 170, 0.5);
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+
+
+.list-emoji {
+    width: 30px;
+    display: inline;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .to-do-app {
+    text-align: center;
+    max-width: 250px;
+  }
+
+  h1 {
+   font-size: 40px !important;
+  }
+
+  container {
+    margin-bottom: 0px;
+  }
 
 }
