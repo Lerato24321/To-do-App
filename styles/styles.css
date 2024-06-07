@@ -95,7 +95,17 @@ ul li::before {
   color: #ffffff;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 50px;
+}
+
+.marked {
+  color:rgb(170, 151, 156);
+  text-decoration: line-through;
+}
+
+
+.marked::before {
+  background-image: url(/checked.png);
 }
 
 
@@ -181,6 +191,17 @@ ul li::before {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
